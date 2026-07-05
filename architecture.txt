@@ -1,0 +1,48 @@
+                               BANK MARKETING ANALYTICS
+                      End-to-End Data Engineering Project
+
+                                   CSV Dataset
+                                        │
+                                        ▼
+                          Microsoft Fabric Lakehouse
+                                        │
+                                        ▼
+                    ┌─────────────────────────┐
+                    │        Bronze Layer             │
+                    │---------------------------------│
+                    │ • Raw Data Ingestion            │
+                    │ • Schema Validation             │
+                    │ • Delta Table Storage           │
+                    └─────────────────────────┘
+                                        │
+                                        ▼
+                    ┌─────────────────────────┐
+                    │        Silver Layer             │
+                    │---------------------------------│
+                    │ • Data Cleaning                 │
+                    │ • Null Handling                 │
+                    │ • Feature Engineering           │
+                    │ • Data Standardization          │
+                    └─────────────────────────┘
+                                        │
+                                        ▼
+                    ┌─────────────────────────┐
+                    │         Gold Layer              │
+                    │---------------------------------│
+                    │ Customer Overview               │
+                    │ Campaign Performance            │
+                    │ Risk & Revenue Insights         │
+                    └─────────────────────────┘
+                                        │
+                                        ▼
+                           Microsoft Fabric Pipeline
+                                        │
+                                        ▼
+                            Semantic Model (Power BI)
+                                        │
+                                        ▼
+                          Interactive Power BI Reports
+                                        │
+            ┌───────────────────── ─────────────────────┐
+            ▼                           ▼                            ▼
+  Customer Analytics          Marketing Performance          Business Insights
