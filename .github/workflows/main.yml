@@ -1,0 +1,23 @@
+name: Repository Validation
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Check Repository Structure
+        run: |
+          test -f README.md
+          test -d Notebooks
+          test -d Notebooks/Bronze
+          test -d Notebooks/Silver
+          test -d Notebooks/Gold
+          echo "Repository structure is valid."
