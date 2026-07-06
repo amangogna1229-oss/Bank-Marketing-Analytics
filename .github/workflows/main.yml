@@ -10,14 +10,31 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Check Repository Structure
+      - name: Show Current Directory
+        run: pwd
+
+      - name: Show All Files
         run: |
-          test -f README.md
-          test -d Notebooks
-          test -d Notebooks/Bronze
-          test -d Notebooks/Silver
-          test -d Notebooks/Gold
-          echo "Repository structure is valid."
+          echo "Current Directory:"
+          pwd
+
+          echo "------------------------"
+
+          echo "Files:"
+          ls -la
+
+          echo "------------------------"
+
+          echo "Recursive:"
+          find .
+
+      - name: Check README
+        run: |
+          if [ -f README.md ]; then
+            echo "✅ README Found"
+          else
+            echo "❌ README Missing"
+            exit 1
+          fi
