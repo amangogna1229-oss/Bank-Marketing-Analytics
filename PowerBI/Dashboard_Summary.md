@@ -1,10 +1,10 @@
 ## Page 1: Customer Overview
-1.There are 20,000 customers in the bank.
-2.Most customers are between 26–45 years old.
-3.Customer segments (Retail, SME, Corporate, VIP) are almost equally distributed.
-4.The average customer income is 26K.
-5.The average credit score is around 609.
-6.The bank has a high total transaction amount of 100.73 Million.
+1.There are 20,000 customers in the bank. \
+2.Most customers are between 26–45 years old. \
+3.Customer segments (Retail, SME, Corporate, VIP) are almost equally distributed. \
+4.The average customer income is 26K. \
+5.The average credit score is around 609. \
+6.The bank has a high total transaction amount of 100.73 Million. \
 
 ## Page 2: Customer Financial Profile
 1.Most customers belong to the Medium Income group.
