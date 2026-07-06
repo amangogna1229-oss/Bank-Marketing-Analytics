@@ -8,30 +8,30 @@
                                         │
                                         ▼
                     ┌─────────────────────────┐
-                    │        Bronze Layer             │
-                    │---------------------------------│
-                    │ • Raw Data Ingestion            │
-                    │ • Schema Validation             │
-                    │ • Delta Table Storage           │
+                    │        Bronze Layer     |     
+                    │-------------------------|
+                    │ • Raw Data Ingestion    |        
+                    │ • Schema Validation     |        
+                    │ • Delta Table Storage   |        
                     └─────────────────────────┘
                                         │
                                         ▼
                     ┌─────────────────────────┐
-                    │        Silver Layer             │
-                    │---------------------------------│
-                    │ • Data Cleaning                 │
-                    │ • Null Handling                 │
-                    │ • Feature Engineering           │
-                    │ • Data Standardization          │
+                    │        Silver Layer     |        
+                    │-------------------------|
+                    │ • Data Cleaning         |        
+                    │ • Null Handling         |        
+                    │ • Feature Engineering   |        
+                    │ • Data Standardization  |        
                     └─────────────────────────┘
                                         │
                                         ▼
                     ┌─────────────────────────┐
-                    │         Gold Layer              │
-                    │---------------------------------│
-                    │ Customer Overview               │
-                    │ Campaign Performance            │
-                    │ Risk & Revenue Insights         │
+                    │         Gold Layer      |        
+                    │-------------------------|
+                    │ Customer Overview       |        
+                    │ Campaign Performance    |        
+                    │ Risk & Revenue Insights |        
                     └─────────────────────────┘
                                         │
                                         ▼
