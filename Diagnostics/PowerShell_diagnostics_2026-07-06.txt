@@ -1,0 +1,20 @@
+PowerShell diagnostics collected on 2026-07-06
+
+Get-Host: ConsoleHost v5.1.26100.7920
+
+Execution policies (summary):
+- MachinePolicy: Unrestricted
+- Process: Bypass
+
+User PATH:
+C:\Users\AmanGogna\AppData\Local\Microsoft\WindowsApps;C:\Users\AmanGogna\AppData\Local\Python\bin;C:\Users\AmanGogna\AppData\Local\Programs\Microsoft VS Code\bin
+
+Machine PATH (excerpt):
+C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\170\Tools\Binn\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd
+
+Notes and observations:
+- No PowerShell profile file found under standard Documents locations.
+- Earlier diagnostic runs showed stray parsing errors when attempting to echo the entire PATH in a single expression from within the integrated terminal; likely caused by unquoted paths containing spaces.
+- Terminal host is Windows PowerShell 5.1 (ConsoleHost).
+
+Raw outputs are available in the VS Code Copilot chat session logs if needed.
