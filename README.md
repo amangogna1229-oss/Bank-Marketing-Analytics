@@ -179,16 +179,6 @@ Through this project, I learned:
 
 ---
 
-# 🚀 Future Improvements
-
-- Incremental Data Loading
-- Row-Level Security (RLS)
-- CI/CD Integration
-- Data Quality Checks
-- Real-Time Data Processing
-
----
-
 # 👨‍💻 About Me
 
 I am a beginner Data Engineer passionate about building end-to-end data projects using Microsoft Fabric, PySpark, SQL, and Power BI. This project helped me understand how raw data is transformed into meaningful business insights using modern data engineering practices.
