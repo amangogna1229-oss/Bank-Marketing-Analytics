@@ -63,7 +63,6 @@ Bank-Marketing-Analytics
 │   └── Gold
 ├── Pipeline
 ├── PowerBI
-├── Screenshots
 └── README.md
 ```
 
