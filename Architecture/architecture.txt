@@ -43,6 +43,6 @@
                                         ▼
                           Interactive Power BI Reports
                                         │
-            ┌───────────────────── ─────────────────────┐
-            ▼                           ▼                            ▼
-  Customer Analytics          Marketing Performance          Business Insights
+            ┌──────────────────────|──────────────┐
+            ▼                      ▼             ▼
+  Customer Analytics   Marketing Performance   Business Insights
