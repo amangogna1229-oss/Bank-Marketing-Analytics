@@ -87,10 +87,10 @@ The Silver layer cleans and transforms the data.
 ### Tasks Performed
 
 - Removed null values
+- Removed duplicates
 - Standardized data
 - Created new business columns
-- Prepared data for analysis
-
+  
 ---
 
 # 🥇 Gold Layer
